@@ -1,4 +1,6 @@
-var proj = document.querySelector("#projects");
+
+ 
+ var proj = document.querySelector("#projects");
 
 proj.addEventListener("click",Pagehandler);
 

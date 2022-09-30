@@ -1,6 +1,4 @@
 var proj = document.querySelector("#projects");
-var blg = document.querySelector("#blogs");
-var Home = document.querySelector("#home");
 
 proj.addEventListener("click",Pagehandler);
 
@@ -9,6 +7,15 @@ function Pagehandler(){
 
 }
 
+var Home = document.querySelector("#home");
+Home.addEventListener("click",HomePage);
+
+function HomePage(){
+    window.location.href = "index.html";
+
+}
+
+var blg = document.querySelector("#blogs");
 blg.addEventListener("click",Blghandler);
 
 function Blghandler(){
@@ -16,9 +23,26 @@ function Blghandler(){
 
 }
 
-Home.addEventListener("click",HomePage);
 
-function HomePage(){
-    window.location.href = "index.html";
+
+
+
+var Hproj = document.querySelector("#Hprojects");
+var Hblg = document.querySelector("#Hblogs");
+
+Hproj.addEventListener("click",HProjecthandler);
+
+function HProjecthandler(){
+    window.location.href = "Projects.html";
 
 }
+
+
+Hblg.addEventListener("click",HBlghandler);
+
+function HBlghandler(){
+    window.location.href = "Blogs.html";
+
+}
+
+

@@ -2,13 +2,16 @@
 
 var ShowMore = document.querySelector("#readmore");
 var Show = document.querySelector("#show");
- ShowMore.addEventListener("click", ReadMore);
+
+
+
+
+ShowMore.addEventListener("click", ReadMore);
 
  function ReadMore(){
 
-    Show.style.visibility = "visible";
-    ShowMore.style.visibility = "hidden";
-
+    Show.style.display = "block";
+    ShowMore.style.display = "none";
  }
  
  

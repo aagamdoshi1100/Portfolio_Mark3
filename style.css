@@ -1,0 +1,17 @@
+#box {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;margin-top: 10px ;
+}
+
+a{
+    margin-top: 10px ;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}

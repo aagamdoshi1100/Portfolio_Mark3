@@ -1,9 +1,10 @@
 
 
 var ShowMore = document.querySelector("#readmore");
+var ShowMore2 = document.querySelector("#readmore2");
 var Show = document.querySelector("#show");
 
-
+var Show2 = document.querySelector("#show2");
 
 
 ShowMore.addEventListener("click", ReadMore);
@@ -14,7 +15,13 @@ ShowMore.addEventListener("click", ReadMore);
     ShowMore.style.display = "none";
  }
  
- 
+ ShowMore2.addEventListener("click", ReadMore2);
+
+ function ReadMore2(){
+
+    Show2.style.display = "block";
+    ShowMore2.style.display = "none";
+ }
  
  var proj = document.querySelector("#projects");
 

@@ -1,3 +1,12 @@
+var Twitterv11 = document.querySelector("#Twitter11");
+
+Twitterv11.addEventListener("click",TwitterHanlder11);
+
+function TwitterHanlder11(){
+    window.location.href = "https://twitter.com/aagamd1100";
+
+}
+
 var GitHub = document.querySelector("#Github");
 
 GitHub.addEventListener("click",GithubHanlder);
@@ -17,11 +26,3 @@ function LinkedinHanlder(){
 
 }
 
-var Twitterv = document.querySelector("#Twitter");
-
-Twitterv.addEventListener("click",TwitterHanlder);
-
-function TwitterHanlder(){
-    window.location.href = "https://twitter.com/aagamd1100";
-
-}

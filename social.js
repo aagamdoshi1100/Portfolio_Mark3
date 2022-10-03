@@ -1,4 +1,4 @@
-var Twitterv11 = document.querySelector("#Twitter11");
+var Twitterv11 = document.querySelector("#Twitter");
 
 Twitterv11.addEventListener("click",TwitterHanlder11);
 

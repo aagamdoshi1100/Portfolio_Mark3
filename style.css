@@ -72,17 +72,15 @@ img{
 }
 
 button{
-  color:rgb(245, 135, 217);
   width: 20%;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(190, 210, 223);
   border-radius: 10px;
-  border-color:rgb(245, 135, 217) ;
   margin-top: 10px;
 }
 button:hover{
-  background-color: rgb(245, 135, 217);
-  color: white;
+  border-color: rgb(61, 118, 223);
+  color:  rgb(61, 118, 223);
 }
 
 @media only screen and (max-width: 800px) {
